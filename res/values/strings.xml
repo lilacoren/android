@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">project2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sendLoginButton">Login</string>
+    <string name="passWordText">Password</string>
+    <string name="title_activity_display_intent_test">DisplayIntentTest</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_activities_menu">ActivitiesMenu</string>
+    <string name="swipeButtonText">SWIPE</string>
+    <string name="balanceButtonText">BALANCE</string>
+    <string name="historyButtonText">HISTORY</string>
+    <string name="profileButtonText">PROFILE</string>
+    <string name="digipassDesc">digipassTheme</string>
+    <string name="travelingDesc">digipassTheme</string>
+    <string name="swipeDesc">SwipeText</string>
+    <string name="swipePicture">SwipeDevicePicture</string>
+    <string name="title_activity_swipe_screen">SwipeScreen</string>
+    <string name="newUserButtonText">New User</string>
+    <string name="passwordForgotText"><u>forgot password?</u></string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="digipassSlogan">We make traveling fun.</string>
+    <string name="email"> Email</string>
+    <string name="signInSubmit">Sign up</string>
+    <string name="nameFieldFeedback">Missing field. please enter English letters only, no spaces.</string>
+    <string name="emailFieldFeedback">Please enter a valid email address.</string>
+    <string name="title_activity_handle_code_read">HandleCodeRead</string>
+    <string name="lineDetailsText">LINE DETAILS</string>
+    <string name="confirm_ride_button_text">CONFIRM RIDE</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_test">Test</string>
+
+</resources>

@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/subwaybackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ActivitiesMenu" >
+
+    <RelativeLayout
+        android:id="@+id/mainMenuLayout"
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/back" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/digipassDesc"
+            android:src="@drawable/digipass_logo" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/historyButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/GreenButton"
+            android:drawableLeft="@drawable/profile_icon"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/profileButtonText"
+            android:textColor="@color/White"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:width="250dp" />
+
+        <Button
+            android:id="@+id/historyButton"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_below="@+id/balanceButton"
+            android:layout_marginTop="20dp"
+            android:background="@color/PurpleButton"
+            android:drawableLeft="@drawable/history_icon_small"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/historyButtonText"
+            android:textColor="@color/White"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:onClick="goHistory"
+            android:width="250dp" />
+
+        <Button
+            android:id="@+id/swipeButton"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/balanceButton"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="30dp"
+            android:background="@color/BlueButton"
+            android:drawableLeft="@drawable/bus_super_small2_icon"
+            android:gravity="center"
+            android:height="30dp"
+            android:onClick="goSwipe"
+            android:text="@string/swipeButtonText"
+            android:textColor="@color/White"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/balanceButton"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/historyButton"
+            android:layout_below="@+id/swipeButton"
+            android:layout_marginTop="20dp"
+            android:background="@color/RedButton"
+            android:drawableLeft="@drawable/balance_small"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/balanceButtonText"
+            android:textColor="@color/White"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:width="250dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/profileButton"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:contentDescription="@string/travelingDesc"
+            android:src="@drawable/traveling_fun" />
+    </RelativeLayout>
+
+</RelativeLayout>

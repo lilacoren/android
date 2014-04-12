@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/subwaybackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".History" >
+
+    <RelativeLayout
+        android:id="@+id/HistoryLayout"
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/back" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/digipassDesc"
+            android:src="@drawable/digipass_logo" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/companyIcon1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/companyIcon1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/view11"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/imageView1"
+            android:src="@drawable/icon_egged" />
+
+        <TextView
+            android:id="@+id/rideDescription1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/companyIcon1"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@+id/companyIcon1"
+            android:textSize="13sp"
+            android:text="ride" />
+
+        <TextView
+            android:id="@+id/testView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view11"
+            android:layout_marginTop="108dp"
+            android:text="TestView" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
